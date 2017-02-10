@@ -1,0 +1,17 @@
+
+<p>タイトル：<%= @title %></p>
+<p>URL：<a href="<%= @url %>" target="_blank"><%= @url %></a></p>
+
+<table>
+  <tbody>
+    <tr>
+      <th>h2</th>
+      <th>h3</th>
+      <th>h4</th>
+      <th>h5</th>
+    </tr>
+<% @details.each do |t| %>
+  <%= raw t %>
+<% end %>
+  </tbody>
+</table>

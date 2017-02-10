@@ -1,0 +1,4 @@
+<%= form_for(@keyword, :url => {controller => 'scraping', :action => 'show'}, html: {method: 'GET'}) do |f| %>
+  <%= f.text_field :keyword %><br />
+  <%= f.submit "決定" %><br />
+<% end %>
