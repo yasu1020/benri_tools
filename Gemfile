@@ -57,6 +57,4 @@ gem 'pry-rails'
 gem 'nokogiri'
 gem 'selenium-webdriver'
 
-group :production, :staging do
-  gem 'rails_12factor'
-end
+gem 'rails_12factor', group: :production
