@@ -55,6 +55,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'mechanize'
 gem 'pry-rails'
 gem 'nokogiri'
-gem 'selenium-webdriver'
+<<<<<<< HEAD
 
 gem 'rails_12factor', group: :production
+=======
+gem 'selenium-webdriver'
+>>>>>>> parent of e77c4cd... init commit
